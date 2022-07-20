@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.indexpage {
+  color: white;
+  display: grid;
+  background-color: black;
+  grid-template-columns: 7fr 6fr;
+  min-height: 100vh;
+}
+.indexpage main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.indexpage .whats-happening {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png");
+}
+.indexpage .whats-happening .twit-logo {
+  fill: white;
+  width: 300px;
+}
+
+.hr-s {
+  height: 1px;
+}
+
+/*# sourceMappingURL=indexpage.css.map */
