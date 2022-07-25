@@ -2,9 +2,9 @@
   width: 100%;
   min-height: 100vh;
   background-color: black;
-  color: white !important;
+  color: white;
 }
-.twitter-page.dark * {
+.twitter-page.dark > * {
   background-color: inherit;
   color: inherit;
   fill: white;
@@ -19,9 +19,6 @@
   background-color: inherit;
   color: inherit;
   fill: black;
-}
-.twitter-page.light svg path, .twitter-page.light circle {
-  fill: dodgerblue !important;
 }
 
 /*# sourceMappingURL=Main.css.map */

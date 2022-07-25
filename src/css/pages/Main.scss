@@ -2,10 +2,10 @@
   width: 100%;
   min-height: 100vh;
   background-color: black;
-  color: white !important;
+  color: white ;
 
 
-  * {
+  &>* {
     background-color: inherit;
     color: inherit;
     fill:white;
@@ -23,7 +23,5 @@
     color: inherit;
     fill:black;
   }
-  svg path, circle{
-    fill: dodgerblue !important;
-  }
+
 }

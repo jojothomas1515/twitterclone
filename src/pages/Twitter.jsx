@@ -7,7 +7,7 @@ function Twitter(props) {
     return (
         <div>
 
-            <section className={"twitter-page light"}>
+            <section className={"twitter-page dark"}>
                 <Nav/>
                <Routes>
                    <Route path={"home"} element={<Home/>}/>
