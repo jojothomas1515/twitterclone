@@ -1,0 +1,37 @@
+.side-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  .nav-con{
+    display: flex;
+    flex-direction: column;
+    gap:.3rem;
+
+  }
+  .nav-items{
+    display: flex;
+    font-size: 1.2rem;
+    gap: .3rem;
+    width: max-content ;
+    @apply px-2 py-2 rounded-3xl;
+
+
+
+
+    svg{
+      width: 2rem;
+      &+span{
+        display: none;
+
+        @media screen and (min-width: 860px) {
+          display: initial;
+        }
+      }
+    }
+
+    &:hover{
+      background-color: #808080;
+    }
+  }
+}

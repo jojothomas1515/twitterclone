@@ -3,26 +3,60 @@
 @tailwind utilities;
 .indexpage {
   color: white;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   background-color: black;
-  grid-template-columns: 7fr 6fr;
   min-height: 100vh;
 }
 .indexpage main {
-  padding: 2rem;
+  padding: 2rem 15%;
+  justify-items: start;
   display: flex;
+  order: 1;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
+}
+.indexpage main .login-signup {
+  min-width: 19rem;
+  max-width: 20rem;
+  display: flex;
+  @apply flex-col;
+  @apply gap-3;
 }
 .indexpage .whats-happening {
   display: grid;
+  order: 2;
   justify-content: center;
   align-items: center;
   background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png");
+  background-size: cover;
+  background-position: center;
 }
 .indexpage .whats-happening .twit-logo {
   fill: white;
   width: 300px;
+}
+@media screen and (min-width: 60rem) {
+  .indexpage {
+    flex-direction: row;
+  }
+  .indexpage .whats-happening {
+    flex-grow: 7;
+    order: 1;
+  }
+  .indexpage main {
+    padding: 2rem;
+    order: 2;
+    flex-grow: 2;
+  }
+}
+
+.nav-b {
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.nav-b > * {
+  cursor: pointer;
 }
 
 .hr-s {
