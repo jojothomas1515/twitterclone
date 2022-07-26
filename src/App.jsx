@@ -12,8 +12,8 @@ function App() {
     <>
         <Routes>
 
-            <Route path={"/"} element={<IndexPage/>}/>
-            <Route path={'twit/*'} element={<Twitter/>}/>
+            <Route path={"whatshappening"} element={<IndexPage/>}/>
+            <Route path={'/'} element={<Twitter/>}/>
 
         </Routes>
 
