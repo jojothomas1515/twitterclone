@@ -13,7 +13,7 @@ function App() {
         <Routes>
 
             <Route path={"whatshappening"} element={<IndexPage/>}/>
-            <Route path={'/'} element={<Twitter/>}/>
+            <Route path={'/*'} element={<Twitter/>}/>
 
         </Routes>
 

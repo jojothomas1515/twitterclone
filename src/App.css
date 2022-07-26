@@ -1,0 +1,28 @@
+.twitter-page.dark {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+.twitter-page.dark svg {
+  fill: white;
+}
+.twitter-page.dark > * {
+  background-color: inherit;
+  color: inherit;
+}
+
+.twitter-page.light {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+.twitter-page.light * {
+  background-color: inherit;
+  color: inherit;
+}
+.twitter-page.light svg {
+  fill: black;
+}
+
+/*# sourceMappingURL=App.css.map */

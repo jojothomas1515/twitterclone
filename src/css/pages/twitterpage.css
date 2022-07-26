@@ -1,0 +1,15 @@
+.twitter-page {
+  display: flex;
+}
+.twitter-page main {
+  display: flex;
+}
+.twitter-page > :nth-child(2) > :first-child {
+  border-inline: 1px solid gray;
+  height: inherit;
+}
+.twitter-page > * {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=twitterpage.css.map */

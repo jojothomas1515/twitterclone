@@ -1,13 +1,16 @@
 import React from 'react';
-import Nav from "../components/navComponents/Nav";
-import "../css/pages/Main.css"
+import "../css/pages/home.css"
 
 
 function Home(props) {
     return (
         <>
-            <section>Hel</section>
+            <section className={"feeds"}>
 
+            </section>
+            <section className={"sidebar"}>
+
+            </section>
         </>
     );
 }

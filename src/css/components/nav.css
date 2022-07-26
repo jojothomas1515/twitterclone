@@ -24,6 +24,7 @@
 }
 .side-nav .nav-items svg {
   width: 2rem;
+  height: 100%;
 }
 .side-nav .nav-items svg + span {
   display: none;
