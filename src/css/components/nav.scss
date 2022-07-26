@@ -1,35 +1,35 @@
-.side-nav{
+.side-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
   max-width: 20%;
-  .nav-con{
+
+  .nav-con {
     display: flex;
     flex-direction: column;
-    gap:.3rem;
+    gap: .3rem;
 
   }
-  .nav-items{
+
+  .nav-items {
     display: flex;
     font-size: 1.2rem;
     gap: .3rem;
-    width: max-content ;
+    width: max-content;
     @apply px-2 py-2 rounded-3xl;
     transition: background-color 150ms ease-in-out;
-    >*{
-      background-color: transparent !important;
+
+    > * {
+      background-color: transparent ;
     }
 
 
-
-
-
-
-    svg{
+    svg {
       width: 2rem;
-      &+span{
+
+      & + span {
         display: none;
 
         @media screen and (min-width: 860px) {
@@ -38,34 +38,56 @@
       }
     }
 
-    &:hover{
+    &:hover {
       background-color: darken(white, 80);
     }
+
+
   }
+
   .tweet-button {
     display: block;
     width: 100%;
-    background-color: dodgerblue !important;
+    background-color: dodgerblue ;
 
-    &:hover{
-      background-color: darken(dodgerblue, 10) !important;
+    &:hover {
+      background-color: darken(dodgerblue, 10) ;
     }
-    *{
-      fill: white !important;
-      color: white !important;
+
+    * {
+      fill: white ;
+      color: white ;
 
     }
-    span{
+
+    span {
       display: none;
     }
 
     @media all and (min-width: 860px) {
-      svg{
+      svg {
         display: none;
       }
-      span{
+      span {
         display: block;
       }
     }
   }
+
+  .user-button{
+    :not(:first-child){
+      display: none;
+
+      @media screen and (min-width:860px) {
+        display: initial;
+      }
+    }
+
+  }
+
 }
+
+
+
+
+

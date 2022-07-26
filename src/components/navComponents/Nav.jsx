@@ -123,7 +123,7 @@ function Nav(props) {
             </div>
 
 
-            <button className={"nav-items mb-5 user-button  items-center"}>
+            <button className={"user-button nav-items mb-5 items-center"}>
                 <div className={'user-img-con w-10 '}><img src={require("../../assets/images/img.png")}/></div>
                 <div className={'flex flex-col'}>
                     <p className={"font-bold"}>Jojo Thomas</p>

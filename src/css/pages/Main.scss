@@ -4,11 +4,12 @@
   background-color: black;
   color: white ;
 
-
+  svg{
+    fill: white;
+  }
   &>* {
     background-color: inherit;
     color: inherit;
-    fill:white;
 
   }
 }
@@ -21,7 +22,9 @@
   * {
     background-color: inherit;
     color: inherit;
-    fill:black;
+  }
+  svg{
+    fill:black
   }
 
 }

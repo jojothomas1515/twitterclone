@@ -20,7 +20,7 @@
   transition: background-color 150ms ease-in-out;
 }
 .side-nav .nav-items > * {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 .side-nav .nav-items svg {
   width: 2rem;
@@ -39,14 +39,14 @@
 .side-nav .tweet-button {
   display: block;
   width: 100%;
-  background-color: dodgerblue !important;
+  background-color: dodgerblue;
 }
 .side-nav .tweet-button:hover {
-  background-color: #0077ea !important;
+  background-color: #0077ea;
 }
 .side-nav .tweet-button * {
-  fill: white !important;
-  color: white !important;
+  fill: white;
+  color: white;
 }
 .side-nav .tweet-button span {
   display: none;
@@ -57,6 +57,14 @@
   }
   .side-nav .tweet-button span {
     display: block;
+  }
+}
+.side-nav .user-button :not(:first-child) {
+  display: none;
+}
+@media screen and (min-width: 860px) {
+  .side-nav .user-button :not(:first-child) {
+    display: initial;
   }
 }
 
