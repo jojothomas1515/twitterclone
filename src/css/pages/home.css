@@ -10,13 +10,18 @@
 }
 .post-feeds .post {
   display: flex;
+  @apply p-3;
 }
 .post-feeds .post .post-img-con {
   width: 3rem;
+  @apply p-2;
 }
 .post-feeds .post .post-con {
   display: flex;
   flex-direction: column;
+}
+.post-feeds .post .post-con .text-sec {
+  @apply text-gray-600;
 }
 
 /*# sourceMappingURL=home.css.map */

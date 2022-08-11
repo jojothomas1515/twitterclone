@@ -6,7 +6,7 @@ function Home(props) {
     const [tweet, setTweet] = useState("")
     return (
         <>
-            <section className={"feeds w-[45vw]"}>
+            <section className={"feeds"}>
                 <div className={"flex justify-between  sticky top-0 w-full h-[2.2rem] "}>
                     <h2 className={"text-2xl font-bold"}>Home</h2>
                     <svg viewBox={"0,0,24,24"} className={"w-7"}>
@@ -100,10 +100,9 @@ function Home(props) {
 
                 </div>
                 <hr/>
-
                 <main className={"post-feeds"}>
                     <div  className={"p-con"}>
-                    <div className={"post"}>
+                    <div className={"post "}>
                         <div className={"post-img-con"}><img src={require("../assets/images/img.png")} alt=""/></div>
                         <div className={"post-con"}>
                             <div className={"tweet-user-info flex gap-2"}><h4 className={"name"}>Jojo Thomas</h4><p className={"username text-sec"}>@jojothomas1515</p><span className={"text-sec"}>&bull;</span>  <p className={"text-sec"}>21h</p></div>
@@ -121,9 +120,9 @@ function Home(props) {
 
 
             </section>
-            <section className={"sidebar"}>
-
-            </section>
+            {/*<section className={"sidebar"}>*/}
+            {/*    hey*/}
+            {/*</section>*/}
         </>
     );
 }

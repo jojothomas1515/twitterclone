@@ -1,8 +1,6 @@
 .twitter-page {
   display: flex;
-}
-.twitter-page main {
-  display: flex;
+  width: 100vw;
 }
 .twitter-page > :nth-child(2) > :first-child {
   border-inline: 1px solid gray;

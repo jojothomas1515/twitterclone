@@ -6,17 +6,25 @@
   }
 }
 
+
+
 .post-feeds{
   display:flex;
   flex-direction: column;
   .post{
     display:flex;
+    @apply p-3;
     .post-img-con{
       width:3rem;
+      @apply p-2;
     }
     .post-con{
       display: flex;
       flex-direction: column;
+
+      .text-sec{
+        @apply text-gray-600;
+      }
     }
 
   }
