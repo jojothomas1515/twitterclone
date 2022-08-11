@@ -1,3 +1,22 @@
+.inner-list svg {
+  fill: #60a5fa !important;
+  cursor: pointer;
+  @apply w-5;
+}
 
+.post-feeds {
+  display: flex;
+  flex-direction: column;
+}
+.post-feeds .post {
+  display: flex;
+}
+.post-feeds .post .post-img-con {
+  width: 3rem;
+}
+.post-feeds .post .post-con {
+  display: flex;
+  flex-direction: column;
+}
 
 /*# sourceMappingURL=home.css.map */
